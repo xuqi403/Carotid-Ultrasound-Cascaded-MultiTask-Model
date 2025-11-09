@@ -82,7 +82,7 @@ python infer.py --model_path checkpoints/best_model.pth --image_path path/to/tes
 ### YOLO ROI Extraction
 
 ```
-python yolo/yolo_roi_train.py --data_path path/to/images --epochs 500 --batch_size 8
+python yolo/train.py --data_path path/to/images --epochs 500 --batch_size 8
 ```
 
 * Pre-trains YOLOv8 for carotid ROI.
