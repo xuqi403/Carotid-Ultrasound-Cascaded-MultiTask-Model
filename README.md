@@ -23,7 +23,7 @@ The code is implemented in PyTorch and supports training, inference, and evaluat
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/Carotid-Ultrasound-Cascaded-MultiTask-Model.git
+   git clone https://github.com/xuqi403/Carotid-Ultrasound-Cascaded-MultiTask-Model.git
    cd Carotid-Ultrasound-Cascaded-MultiTask-Model
    ```
 
@@ -80,8 +80,6 @@ python infer.py --model_path checkpoints/best_model.pth --image_path path/to/tes
 * Outputs: Predictions for plaque, details, vulnerability; optional Grad-CAM heatmaps.
 
 ### YOLO ROI Extraction
-
-(Assuming `yolo.py` implemented separately for ROI detection.)
 
 ```
 python yolo/yolo_roi_train.py --data_path path/to/images --epochs 500 --batch_size 8
