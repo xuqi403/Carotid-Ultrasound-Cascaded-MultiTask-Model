@@ -71,8 +71,6 @@ python src/train.py --excel_file path/to/data.xlsx --sheet_name Train --batch_si
 
 ### Inference
 
-(Assuming you have `infer.py` implemented separately.)
-
 ```
 python infer.py --model_path checkpoints/best_model.pth --image_path path/to/test_image.jpg --output_dir results/infer/
 ```
